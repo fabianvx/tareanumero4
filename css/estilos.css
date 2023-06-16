@@ -1,0 +1,122 @@
+body{
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(97, 95, 95);
+  
+  
+}
+
+a{
+  color: #ffffff;
+  text-decoration: none;/*es el diseño de los links*/
+
+}
+a :hover{ 
+  text-decoration: none; 
+}
+
+#outer{
+ 
+width: 920px;
+margin-top: 3%;
+margin-left: 21.5%;
+margin-bottom: 3%;
+padding-top: 1%;
+background-color: aliceblue;
+}
+
+
+#outer #fondoEncabezado{  
+    margin-left: 2%;
+  
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;     
+    float: left;
+    height:250px;
+    width: 980px;   
+    font-size:  x-large;      
+}
+#fondoEncabezado #tituloPrincipal{  
+ 
+  padding-left: 12%;
+  padding-top: 0.5%;    
+  font-family: Arial, Helvetica, sans-serif; 
+  color: green;
+}
+ footer{
+  margin-left: 1%;
+  margin-top: 88%;
+  width: 880px; 
+  height: 35px;
+  padding: 1%;
+  text-align: center;
+  background-color: #488000; 
+  color: #FFF; 
+  text-decoration: underline;
+  align-items: center;
+}
+#links{
+
+margin-right: 0 auto;
+
+}
+ #menu{
+  margin-left: 2%;
+  display: flex;
+  height: auto;
+  width: 880px;
+  height: 35px;
+  background-color:#488000;
+}
+
+#menu #container .principal{
+  float: left;
+  color: white;
+  border-right: 1px solid white;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 25px;
+}
+#menu #container a:hover{
+  font-size: larger;
+  font-weight: bold;
+  background-color: rgb(15, 196, 15);
+}
+.primero{
+  float: right;
+  padding-right: 30px;
+  text-align: justify;
+  width: 600px;
+}
+.titulos{
+  font-weight: bold;
+  font-size: x-large;
+}
+.izquierda{
+  float: left;
+  width: 200px;
+  padding-left: 30px;
+  text-align: justify;
+}
+#subtitulo{
+color: #488000;
+font-family: Arial, Helvetica, sans-serif;
+}
+#arbol{
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+img.picA{    
+  position: relative;  
+  top: -2px; 
+  width: 210px;  
+  padding: 8px;
+}
+img.floatleft{
+  float: left; 
+}
